@@ -1,0 +1,119 @@
+[
+    {
+        "type": "note",
+        "date": "31 de mayo del 1994",
+        "title": "Eloi Joined the game",
+        "content": "YOLO",
+        "icon": "baby",
+        "techs": []
+    },
+    {
+        "type": "separator",
+        "content": "Long years of training...",
+        "subtimeline": []
+    },
+    {
+        "type": "note",
+        "date": "2013",
+        "title": "French secondary school diploma",
+        "content": "Lycée Déodat de Séverac, Ceret, Francia",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "2014",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["php", "cpp", "mysql"]
+    },
+    {
+        "type": "note",
+        "date": "September 2016",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["javascript", "css", "html"]
+    },
+    {
+        "type": "note",
+        "date": "February 2018 - May 2018",
+        "title": "Internship in web development",
+        "content": "<a class=\"text-warning\" href=\"https://www.alteregoweb.com\" target=\"_blank\">AlterEgo Web</a>, Figueras, Spain",
+        "icon": "work",
+        "techs": ["laravel", "jquery", "bootstrap", "docker"]
+    },
+    {
+        "type": "note",
+        "date": "September 2016 - June 2018",
+        "title": "Two-year technical degree in Web Developement",
+        "content": "<a class=\"text-warning\" href=\"https://www.ifp.es/\" target=\"_blank\">IFP</a>, remote",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "Junio 2018 - Abril 2019",
+        "title": "Web Developer",
+        "content": "<a class=\"text-warning\" href=\"https://www.alteregoweb.com\" target=\"_blank\">AlterEgo Web</a>, Figueras, Spain",
+        "icon": "work",
+        "techs": ["laravel", "jquery", "bootstrap", "vagrant"]
+    },
+    {
+        "type": "note",
+        "date": "2018",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["java", "ruby"]
+    },
+    {
+        "type": "note",
+        "date": "April 2019 - July 2019",
+        "title": "Internship in Android Developement",
+        "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpignan, France",
+        "icon": "work",
+        "techs": ["android", "rails"]
+    },
+    {
+        "type": "note",
+        "date": "September 2018 - June 2019",
+        "title": "Two-year technical degree in Mobile App Developement",
+        "content": "<a class=\"text-warning\" href=\"https://www.ilerna.es/\" target=\"_blank\">Ilerna</a>, remote",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "2019",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["kotlin", "sass"]
+    },
+    {
+        "type": "note",
+        "date": "October 2019 - Today",
+        "title": "Android and Web Developer",
+        "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpignan, France",
+        "icon": "work",
+        "techs": ["android", "jetpack", "rails", "bootstrap"]
+    },
+    {
+        "type": "note",
+        "date": "2021",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["arduino"]
+    },
+    {
+        "type": "note",
+        "date": "2022",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["react"]
+    }
+]

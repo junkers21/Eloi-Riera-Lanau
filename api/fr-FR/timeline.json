@@ -1,0 +1,119 @@
+[
+    {
+        "type": "note",
+        "date": "31 mai 1994",
+        "title": "Eloi Joined the game",
+        "content": "YOLO",
+        "icon": "baby",
+        "techs": []
+    },
+    {
+        "type": "separator",
+        "content": "Longues années de formation...",
+        "subtimeline": []
+    },
+    {
+        "type": "note",
+        "date": "2013",
+        "title": "Baccalauréat scientifique",
+        "content": "Lycée Déodat de Séverac, Céret, France",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "2014",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["php", "cpp", "mysql"]
+    },
+    {
+        "type": "note",
+        "date": "Septembre 2016",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["javascript", "css", "html"]
+    },
+    {
+        "type": "note",
+        "date": "Février 2018 - Mai 2018",
+        "title": "Stage en développement web",
+        "content": "<a class=\"text-warning\" href=\"https://www.alteregoweb.com\" target=\"_blank\">AlterEgo Web</a>, Figueras, Espagne",
+        "icon": "work",
+        "techs": ["laravel", "jquery", "bootstrap", "docker"]
+    },
+    {
+        "type": "note",
+        "date": "Septembre 2016 - Juin 2018",
+        "title": "BAC+2 Developpement d'applications Web",
+        "content": "<a class=\"text-warning\" href=\"https://www.ifp.es/\" target=\"_blank\">IFP</a>, à distance",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "Juin 2018 - Avril 2019",
+        "title": "Développeur web",
+        "content": "<a class=\"text-warning\" href=\"https://www.alteregoweb.com\" target=\"_blank\">AlterEgo Web</a>, Figueras, Espagne",
+        "icon": "work",
+        "techs": ["laravel", "jquery", "bootstrap", "vagrant"]
+    },
+    {
+        "type": "note",
+        "date": "2018",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["java", "ruby"]
+    },
+    {
+        "type": "note",
+        "date": "Avril 2019 - Juillet 2019",
+        "title": "Stage en développement Android",
+        "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpignan, France",
+        "icon": "work",
+        "techs": ["android", "rails"]
+    },
+    {
+        "type": "note",
+        "date": "Septembre 2018 - Juin 2019",
+        "title": "BAC+2 Developpement d'applications multiplateforme",
+        "content": "<a class=\"text-warning\" href=\"https://www.ilerna.es/\" target=\"_blank\">Ilerna</a>, à distance",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "2019",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["kotlin", "sass"]
+    },
+    {
+        "type": "note",
+        "date": "Octobre 2019 - Présent",
+        "title": "Développeur Web et Android",
+        "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpignan, France",
+        "icon": "work",
+        "techs": ["android", "jetpack", "rails", "bootstrap"]
+    },
+    {
+        "type": "note",
+        "date": "2021",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["arduino"]
+    },
+    {
+        "type": "note",
+        "date": "2022",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["react"]
+    }
+]

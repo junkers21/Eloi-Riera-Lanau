@@ -1,0 +1,119 @@
+[
+    {
+        "type": "note",
+        "date": "31 de mayo del 1994",
+        "title": "Eloi Joined the game",
+        "content": "YOLO",
+        "icon": "baby",
+        "techs": []
+    },
+    {
+        "type": "separator",
+        "content": "Largos años de formación...",
+        "subtimeline": []
+    },
+    {
+        "type": "note",
+        "date": "2013",
+        "title": "Bachillerato científico",
+        "content": "Lycée Déodat de Séverac, Céret, Francia",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "2014",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["php", "cpp", "mysql"]
+    },
+    {
+        "type": "note",
+        "date": "Septiembre 2016",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["javascript", "css", "html"]
+    },
+    {
+        "type": "note",
+        "date": "Febrero 2018 - Mayo 2018",
+        "title": "Practicas en desarrollo web",
+        "content": "<a class=\"text-warning\" href=\"https://www.alteregoweb.com\" target=\"_blank\">AlterEgo Web</a>, Figueras, Girona",
+        "icon": "work",
+        "techs": ["laravel", "jquery", "bootstrap", "docker"]
+    },
+    {
+        "type": "note",
+        "date": "Septiembre 2016 - Junio 2018",
+        "title": "CFGS Desarrollador en Aplicaciones Web",
+        "content": "<a class=\"text-warning\" href=\"https://www.ifp.es/\" target=\"_blank\">IFP</a>, a distancia",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "Junio 2018 - Abril 2019",
+        "title": "Desarrollador web",
+        "content": "<a class=\"text-warning\" href=\"https://www.alteregoweb.com\" target=\"_blank\">AlterEgo Web</a>, Figueras, Girona",
+        "icon": "work",
+        "techs": ["laravel", "jquery", "bootstrap", "vagrant"]
+    },
+    {
+        "type": "note",
+        "date": "2018",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["java", "ruby"]
+    },
+    {
+        "type": "note",
+        "date": "Abril 2019 - Julio 2019",
+        "title": "Practicas en desarrollo Android",
+        "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpiñan, Francia",
+        "icon": "work",
+        "techs": ["android", "rails"]
+    },
+    {
+        "type": "note",
+        "date": "Septiembre 2018 - Junio 2019",
+        "title": "CFGS Desarrollador de Aplicaciones Multiplataforma",
+        "content": "<a class=\"text-warning\" href=\"https://www.ilerna.es/\" target=\"_blank\">Ilerna</a>, a distancia",
+        "icon": "graduation",
+        "techs": []
+    },
+    {
+        "type": "note",
+        "date": "2019",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["kotlin", "sass"]
+    },
+    {
+        "type": "note",
+        "date": "Octubre 2019 - Actualidad",
+        "title": "Desarrollador Web y Android",
+        "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpiñan, Francia",
+        "icon": "work",
+        "techs": ["android", "jetpack", "rails", "bootstrap"]
+    },
+    {
+        "type": "note",
+        "date": "2021",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["arduino"]
+    },
+    {
+        "type": "note",
+        "date": "2022",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["react"]
+    }
+]
