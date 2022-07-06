@@ -1,0 +1,17 @@
+{
+    "header": {
+        "greatings": "Hello There",
+        "title": "I am <1>Eloi Riera Lanau</1>",
+        "subtitle": "Web and android developer",
+        "age": "Age",
+        "email": "Email",
+        "email_text": "eloi.riera.lanau@gmail.com",
+        "work": "Work",
+        "work_text": "Rails and android developer at <1> Isee U </1>",
+        "address": "Address",
+        "address_text": "Saint-Jean-Pla-De-Corts, 66490",
+        "about_me": "About me",
+        "about_me_content": "<p>As a web and mobile developer, I seek to expand my knowledge in programming and organization through my professional and personal projects. </p><p>Although the front-end and UX are my strong point due to my professional environments and my perfectionism, I can work in backend with equal ease.</p>",
+        "download_vc": "Download Resume"
+    }
+}
