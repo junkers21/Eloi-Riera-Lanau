@@ -12,11 +12,9 @@ function App() {
                 <NavBar />
 
                 <main>
-
                     <HelmetProvider>
                         <ViewNavigator />
                     </HelmetProvider>
-
                 </main>
 
                 <Footer />

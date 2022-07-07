@@ -5,9 +5,6 @@ import { Helmet } from "react-helmet-async";
 import { useTranslation } from 'react-i18next';
 
 export default function Home() {
-    const { t } = useTranslation('home')
-
-    console.log(t('meta.title'))
     return (
         <div>
             <HomeMetaDescriptions />
@@ -19,7 +16,7 @@ export default function Home() {
     )
 }
 
-function HomeMetaDescriptions(props) {
+function HomeMetaDescriptions() {
 
     const { t } = useTranslation('home')
 
@@ -31,13 +28,13 @@ function HomeMetaDescriptions(props) {
                 <link rel="canonical" href={t('meta.url')} />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content={t('meta.title')}/>
+                <meta property="og:title" content={t('meta.title')} />
                 <meta property="og:description" content={t('meta.description')} />
                 <meta property="og:image" content="https://picsum.photos/600/700" />
                 <meta property="og:url" content={t('meta.url')} />
                 <meta property="og:site_name" content={t('meta.title')} />
 
-                
+
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content={t('meta.title')} />
                 <meta name="twitter:description" content={t('meta.description')} />

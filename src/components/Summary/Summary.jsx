@@ -8,32 +8,32 @@ import * as Constants from '../../utils/Constants/TechsConstants';
 import { useTranslation } from 'react-i18next';
 
 export default function Summary() {
-    const {t} = useTranslation()
+    const { t } = useTranslation()
     return (
         <section id="summary" className="bg-dark py-5">
 
             <h2 className="h1 text-white fw-bold mb-5 text-center">{t('navbar.summary', { ns: 'common' })}</h2>
-            
+
             <Container>
                 <Row>
                     <Col xs={12} md={6} xl={3} className="mb-3">
                         <SummaryCard title={t('summary.want_to_learn', { ns: 'home' })}>
-                            <TechBlockList items={Constants.TECHS_WANT_TO_LEARN}/>
+                            <TechBlockList items={Constants.TECHS_WANT_TO_LEARN} />
                         </SummaryCard>
                     </Col>
                     <Col xs={12} md={6} xl={3} className="mb-3">
                         <SummaryCard title={t('summary.tested', { ns: 'home' })}>
-                            <TechBlockList items={Constants.TECHS_TESTED}/>
+                            <TechBlockList items={Constants.TECHS_TESTED} />
                         </SummaryCard>
                     </Col>
                     <Col xs={12} md={6} xl={3} className="mb-3">
                         <SummaryCard title={t('summary.worked_with', { ns: 'home' })}>
-                            <TechBlockList items={Constants.TECHS_WORKED_WITH}/>
+                            <TechBlockList items={Constants.TECHS_WORKED_WITH} />
                         </SummaryCard>
                     </Col>
                     <Col xs={12} md={6} xl={3} className="mb-3">
                         <SummaryCard title={t('summary.work_with', { ns: 'home' })}>
-                            <TechBlockList items={Constants.TECHS_WORK_WITH}/>
+                            <TechBlockList items={Constants.TECHS_WORK_WITH} />
                         </SummaryCard>
                     </Col>
                 </Row>
@@ -60,7 +60,7 @@ function TechBlockList(props) {
     return (
         <div className='d-flex justify-content-center flex-wrap'>
             {props.items.map((item) => (
-                <TechBlock key={item.name} name={item.name}/>
+                <TechBlock key={item.name} name={item.name} />
             ))}
         </div>
     )
