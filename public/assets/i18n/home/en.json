@@ -1,4 +1,9 @@
 {
+    "meta": {
+        "title": "Eloi Riera Lanau",
+        "description": "Web and mobile developer",
+        "url": "https://junkers21.github.io/"
+    },
     "header": {
         "greatings": "Hello There",
         "title": "I am <1>Eloi Riera Lanau</1>",

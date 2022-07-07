@@ -54,16 +54,16 @@ function ChangeLang() {
     const [selectedLang, setSelectedLang] = useState("");
 
     var setLangText = (lang) => {
-        switch(lang) {
+        switch (lang) {
             case "es-ES":
                 setSelectedLang(t("langs.spanish", { ns: 'common' }))
-              break;
+                break;
             case "fr-FR":
                 setSelectedLang(t("langs.french", { ns: 'common' }))
-              break;
+                break;
             default:
                 setSelectedLang(t("langs.english", { ns: 'common' }))
-          }
+        }
 
     }
 
@@ -72,7 +72,7 @@ function ChangeLang() {
     var checkLanguage = () => {
         let lng = i18n.language
         let lang = lng
-        
+
         if (lang.includes("es") && lang !== "es-ES") {
             lng = "es-ES"
         }
@@ -83,7 +83,7 @@ function ChangeLang() {
             lng = "en"
         }
 
-        if(lng !== lang){
+        if (lng !== lang) {
             i18n.changeLanguage(lng)
         }
     }
@@ -109,9 +109,9 @@ function ChangeLang() {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <Dropdown.Item onClick={() => {setLang("es-ES")}}>{t("langs.spanish", { ns: 'common' })}</Dropdown.Item>
-                        <Dropdown.Item onClick={() => {setLang("fr-FR")}}>{t("langs.french", { ns: 'common' })}</Dropdown.Item>
-                        <Dropdown.Item onClick={() => {setLang("en")}}>{t("langs.english", { ns: 'common' })}</Dropdown.Item>
+                        <Dropdown.Item onClick={() => { setLang("es-ES") }}>{t("langs.spanish", { ns: 'common' })}</Dropdown.Item>
+                        <Dropdown.Item onClick={() => { setLang("fr-FR") }}>{t("langs.french", { ns: 'common' })}</Dropdown.Item>
+                        <Dropdown.Item onClick={() => { setLang("en") }}>{t("langs.english", { ns: 'common' })}</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </Col>

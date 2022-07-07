@@ -1,4 +1,9 @@
 {
+    "meta": {
+        "title": "Eloi Riera Lanau",
+        "description": "Técnico superior en desarrollo de aplicaciones web y multiplataforma",
+        "url": "https://junkers21.github.io/"
+    },
     "header": {
         "greatings": "¿ Que tal ?",
         "title": "Soy <1>Eloi Riera Lanau</1>",
