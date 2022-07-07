@@ -1,4 +1,9 @@
 {
+    "meta": {
+        "title": "Eloi Riera Lanau",
+        "description": "Technicien supérieur en développement d'applications web et multiplateformes",
+        "url": "https://junkers21.github.io/"
+    },
     "header": {
         "greatings": "Hello there !",
         "title": "Je suis <1>Eloi Riera Lanau</1>",
@@ -13,5 +18,16 @@
         "about_me": "Sur moi",
         "about_me_content": "<p>Technicien supérieur en développement d'applications web et multiplateformes, je cherche à approfondir mes connaissances en programmation et en organisation à travers mes projets professionnels et personnels.</p> <p>Bien que le front-end et l'UX soient mon point fort en raison de mes environnements professionnels et de mon perfectionnisme, je peux travailler dans des environnements back-end avec la même facilité.</p>",
         "download_vc": "Télécharger le CV"
+    },
+    "summary": {
+        "want_to_learn": "Je veux apprendre",
+        "tested": "J'ai testé",
+        "worked_with": "J'ai travaillé avec",
+        "work_with": "Je travaille avec"
+    },
+    "footer": {
+        "social_networks": "Réseaux sociaux",
+        "contact_information": "Information de contact",
+        "select_lang": "Selectioner la langue"
     }
 }

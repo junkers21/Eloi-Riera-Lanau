@@ -1,4 +1,9 @@
 {
+    "meta": {
+        "title": "Eloi Riera Lanau",
+        "description": "Web and mobile developer",
+        "url": "https://junkers21.github.io/"
+    },
     "header": {
         "greatings": "Hello There",
         "title": "I am <1>Eloi Riera Lanau</1>",
@@ -13,5 +18,16 @@
         "about_me": "About me",
         "about_me_content": "<p>As a web and mobile developer, I seek to expand my knowledge in programming and organization through my professional and personal projects. </p><p>Although the front-end and UX are my strong point due to my professional environments and my perfectionism, I can work in backend with equal ease.</p>",
         "download_vc": "Download Resume"
+    },
+    "summary": {
+        "want_to_learn": "I want to learn",
+        "tested": "I've tested",
+        "worked_with": "I've worked with",
+        "work_with": "I work with"
+    },
+    "footer": {
+        "social_networks": "Social networks",
+        "contact_information": "Contact information",
+        "select_lang": "Select language"
     }
 }
