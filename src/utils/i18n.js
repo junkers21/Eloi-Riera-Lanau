@@ -24,7 +24,7 @@ i18n
     defaultNS: "common",
     debug: false,
 
-    whitelist: availableLanguages,
+    supportedLngs: availableLanguages,
     interpolation: {
       escapeValue: false,
     }
