@@ -22,7 +22,7 @@ i18n
     },
     ns: ["common", "home"],
     defaultNS: "common",
-    debug: true,
+    debug: false,
 
     whitelist: availableLanguages,
     interpolation: {

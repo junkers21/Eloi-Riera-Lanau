@@ -8,7 +8,7 @@ export default function NavBar(){
     const navigation = [
         { name: t('navbar.presentation'), href: '#presentation' },
         { name: t('navbar.journey'), href: '#journey' },
-        { name: t('navbar.contact'), href: '#contact' },
+        { name: t('navbar.summary'), href: '#summary' },
       ]
       
     return(

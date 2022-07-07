@@ -2,6 +2,11 @@
     "navbar": {
         "presentation": "Presentación",
         "journey": "Mi recorrido",
-        "contact": "Contacto"
+        "summary": "En resumen"
+    },
+    "langs": {
+        "english": "Inglés",
+        "spanish": "Castellano",
+        "french": "Francés"
     }
 }

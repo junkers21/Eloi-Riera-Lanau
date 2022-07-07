@@ -1,7 +1,7 @@
 [
     {
         "type": "note",
-        "date": "31 de mayo del 1994",
+        "date": "May 31, 1994",
         "title": "Eloi Joined the game",
         "content": "YOLO",
         "icon": "baby",
@@ -98,7 +98,7 @@
         "title": "Android and Web Developer",
         "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpignan, France",
         "icon": "work",
-        "techs": ["android", "jetpack", "rails", "bootstrap"]
+        "techs": ["android", "jetpack", "rails", "jquery", "bootstrap"]
     },
     {
         "type": "note",
