@@ -16,20 +16,23 @@ export default function Header() {
     let ageDate = new Date(ageDiffMs)
     let yearsOld = Math.abs(ageDate.getUTCFullYear() - 1970)
 
+    let backgroundUrl = process.env.PUBLIC_URL + '/assets/img/background.jpeg';
+    let profileUrl = process.env.PUBLIC_URL + '/assets/img/profile.jpeg';
+
     return (
-        <div id="presentation" className="pt-5 pb-5 pb-lg-0" style={{ background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('${process.env.PUBLIC_URL + '/assets/img/background.jpeg'}')`, backgroundSize: "cover", backgroundReapeat: "no-repeat" }}>
+        <div id="presentation" className="pt-5 pb-5 pb-lg-0" style={{ background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('${backgroundUrl}')`, backgroundSize: "cover", backgroundReapeat: "no-repeat" }}>
             <Container className="mt-5">
                 <Row>
                     <Col>
                         <Card className="shadow border-0 mb-4 d-sm-none">
-                            <Card.Img variant="top" src="https://picsum.photos/600/700" className="d-block d-sm-none" />
+                            <Card.Img variant="top" src={profileUrl} className="d-block d-sm-none" />
                             <div className="position-absolute pt-3 ps-3 d-block d-sm-none">
                                 <p className="display-6 mb-md-4"><span className="badge bg-warning">{t('header.greatings')}</span></p>
                             </div>
                             <Card.Body>
                                 <Row className="">
                                     <Col xs={3} sm={4} className="d-none d-sm-block d-lg-none">
-                                        <div className="h-100" style={{ background: `url('https://picsum.photos/600/700')`, backgroundSize: "cover", backgroundReapeat: "no-repeat" }}></div>
+                                        <div className="h-100" style={{ background: `url('${profileUrl}')`, backgroundPosition: "center", backgroundSize: "cover", backgroundReapeat: "no-repeat" }}></div>
                                     </Col>
                                     <Col xs={12} sm={8} lg={12}>
                                         <p className="display-6 mb-md-4 d-none d-sm-block"><span className="badge bg-warning">{t('header.greatings')}</span></p>
@@ -45,7 +48,7 @@ export default function Header() {
                         <Card className="shadow mb-4 border-0 d-sm-none">
 
                             <Row>
-                                <Col xs={{ span: 12 }} lg={{ span: 6 }} className="d-none d-lg-flex pe-0" style={{ background: `url('https://picsum.photos/600/700')`, backgroundSize: "cover", backgroundReapeat: "no-repeat" }}>
+                                <Col xs={{ span: 12 }} lg={{ span: 6 }} className="d-none d-lg-flex pe-0" style={{ background: `url('${profileUrl}')`, backgroundPosition: "center", backgroundSize: "cover", backgroundReapeat: "no-repeat" }}>
                                 </Col>
                                 <Col xs={{ span: 12 }} lg={{ span: 6 }} className="align-items-center">
                                     <Card.Body>
@@ -71,13 +74,13 @@ export default function Header() {
                         <Card className="shadow mb-lg-n5 border-0">
 
                             <Row>
-                                <Col xs={{ span: 12 }} lg={{ span: 6 }} className="d-none d-lg-flex pe-0" style={{ background: `url('https://picsum.photos/600/700')`, backgroundSize: "cover", backgroundReapeat: "no-repeat" }}>
+                                <Col xs={{ span: 12 }} lg={{ span: 6 }} className="d-none d-lg-flex pe-0" style={{ background: `url('${profileUrl}')`, backgroundPosition: "center", backgroundSize: "cover", backgroundReapeat: "no-repeat" }}>
                                 </Col>
                                 <Col xs={{ span: 12 }} lg={{ span: 6 }} className="align-items-center">
                                     <Card.Body>
                                         <Row className="d-none d-sm-flex">
                                             <Col sm={4}>
-                                                <div className="h-100" style={{ background: `url('https://picsum.photos/600/700')`, backgroundSize: "cover", backgroundReapeat: "no-repeat" }}></div>
+                                                <div className="h-100" style={{ background: `url('${profileUrl}')`, backgroundSize: "cover", backgroundReapeat: "no-repeat" }}></div>
                                             </Col>
                                             <Col sm={8} lg={12}>
                                                 <p className="display-6 mb-md-4"><span className="badge bg-warning">{t('header.greatings')}</span></p>

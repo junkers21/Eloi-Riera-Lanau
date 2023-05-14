@@ -6,13 +6,14 @@ import Col from "react-bootstrap/Col";
 import { Card } from "react-bootstrap";
 import React, { useEffect, useState } from 'react';
 import { getTimelineList } from "../../services/timeline";
-import i18n from 'i18next';
+import { useTranslation } from 'react-i18next';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBaby, faGraduationCap, faLightbulb, faBriefcase, faFlask, faJedi } from '@fortawesome/free-solid-svg-icons';
 
 export default function FirstSection() {
     const [list, setList] = useState([]);
+    const { i18n } = useTranslation('home')
 
     useEffect(() => {
         let mounted = true;
@@ -23,7 +24,7 @@ export default function FirstSection() {
                 }
             })
         return () => mounted = false;
-    }, [])
+    }, [i18n.language])
 
 
     return (
