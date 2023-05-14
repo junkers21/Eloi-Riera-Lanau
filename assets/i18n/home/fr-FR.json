@@ -6,7 +6,7 @@
     },
     "header": {
         "greatings": "Hello there !",
-        "title": "Je suis <1>Eloi Riera Lanau</1>",
+        "title": "<1>Eloi Riera Lanau</1>",
         "subtitle": "Developeur web et android",
         "age": "Age",
         "email": "Email",
