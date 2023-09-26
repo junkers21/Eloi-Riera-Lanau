@@ -31,6 +31,10 @@ export const TECH_SYMFONY = { name: "symfony" }
 export const TECH_TYPESCRIPT = { name: "typescript" }
 export const TECH_VAGRANT = { name: "vagrant" }
 export const TECH_WORDPRESS = { name: "wordpress" }
+export const TECH_GITLAB = { name: "gitlab" }
+export const TECH_GITLAB_CI = { name: "gitlab_ci" }
+export const TECH_KAMAL = { name: "kamal" }
+export const TECH_GITHUB_ACTIONS = { name: "github_actions" }
 
 // Techs Lists in Summary
 export const TECHS_WANT_TO_LEARN = [
@@ -45,7 +49,9 @@ export const TECHS_TESTED = [
     TECH_CPP,
     TECH_ARDUINO,
     TECH_PYTHON,
-    TECH_SYMFONY
+    TECH_SYMFONY,
+    TECH_KAMAL,
+    TECH_GITHUB_ACTIONS
 ]
 export const TECHS_WORKED_WITH = [
     TECH_VAGRANT,
@@ -68,4 +74,6 @@ export const TECHS_WORK_WITH = [
     TECH_KOTLIN,
     TECH_JETPACK,
     TECH_ANDROID,
+    TECH_GITLAB,
+    TECH_GITLAB_CI
 ]
