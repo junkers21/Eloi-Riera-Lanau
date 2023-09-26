@@ -98,7 +98,7 @@
         "title": "Android and Web Developer",
         "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpignan, France",
         "icon": "work",
-        "techs": ["android", "jetpack", "rails", "jquery", "bootstrap"]
+        "techs": ["android", "jetpack", "rails", "jquery", "bootstrap", "gitlab"]
     },
     {
         "type": "note",
@@ -115,5 +115,13 @@
         "content": "",
         "icon": "skill",
         "techs": ["react"]
+    },
+    {
+        "type": "note",
+        "date": "2023",
+        "title": "",
+        "content": "",
+        "icon": "skill",
+        "techs": ["github_actions", "kamal"]
     }
 ]
