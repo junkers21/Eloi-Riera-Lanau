@@ -35,10 +35,11 @@ export const TECH_GITLAB = { name: "gitlab" }
 export const TECH_GITLAB_CI = { name: "gitlab_ci" }
 export const TECH_KAMAL = { name: "kamal" }
 export const TECH_GITHUB_ACTIONS = { name: "github_actions" }
+export const TECH_STIMULUS = { name: "stimulus" }
+export const TECH_TURBO = { name: "turbo" }
 
 // Techs Lists in Summary
 export const TECHS_WANT_TO_LEARN = [
-    TECH_TYPESCRIPT,
     TECH_DART,
     TECH_FLUTTER,
     TECH_PSM,
@@ -50,13 +51,10 @@ export const TECHS_TESTED = [
     TECH_ARDUINO,
     TECH_PYTHON,
     TECH_SYMFONY,
-    TECH_KAMAL,
     TECH_GITHUB_ACTIONS
 ]
 export const TECHS_WORKED_WITH = [
     TECH_VAGRANT,
-    TECH_DOCKER,
-    TECH_PHP,
     TECH_LARAVEL,
     TECH_JAVA
 ]
@@ -70,10 +68,15 @@ export const TECHS_WORK_WITH = [
     TECH_RUBY,
     TECH_RAILS,
     TECH_MYSQL,
+    TECH_PHP,
     TECH_WORDPRESS,
     TECH_KOTLIN,
     TECH_JETPACK,
     TECH_ANDROID,
     TECH_GITLAB,
-    TECH_GITLAB_CI
+    TECH_GITLAB_CI,
+    TECH_STIMULUS,
+    TECH_TURBO,
+    TECH_DOCKER,
+    TECH_KAMAL
 ]
