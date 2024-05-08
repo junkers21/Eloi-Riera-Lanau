@@ -37,6 +37,7 @@ export const TECH_KAMAL = { name: "kamal" }
 export const TECH_GITHUB_ACTIONS = { name: "github_actions" }
 export const TECH_STIMULUS = { name: "stimulus" }
 export const TECH_TURBO = { name: "turbo" }
+export const TECH_REDIS = { name: "redis" }
 
 // Techs Lists in Summary
 export const TECHS_WANT_TO_LEARN = [
@@ -68,6 +69,7 @@ export const TECHS_WORK_WITH = [
     TECH_RUBY,
     TECH_RAILS,
     TECH_MYSQL,
+    TECH_REDIS,
     TECH_PHP,
     TECH_WORDPRESS,
     TECH_KOTLIN,
