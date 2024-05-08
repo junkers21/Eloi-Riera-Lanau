@@ -98,7 +98,7 @@
         "title": "Desarrollador Web y Android",
         "content": "<a class=\"text-warning\" href=\"https://isee-u.fr/\" target=\"_blank\">I See U</a>, Perpiñan, Francia",
         "icon": "work",
-        "techs": ["android", "jetpack", "rails", "jquery", "bootstrap", "gitlab", "gitlab_ci"]
+        "techs": ["android", "jetpack", "rails", "jquery", "bootstrap", "redis", "gitlab", "gitlab_ci"]
     },
     {
         "type": "note",
