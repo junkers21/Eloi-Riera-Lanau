@@ -76,7 +76,7 @@ export default function Header() {
                             <Row>
                                 <Col xs={{ span: 12 }} lg={{ span: 6 }} className="d-none d-lg-flex pe-0" style={{ background: `url('${profileUrl}')`, backgroundPosition: "center", backgroundSize: "cover", backgroundReapeat: "no-repeat" }}>
                                 </Col>
-                                <Col xs={{ span: 12 }} lg={{ span: 6 }} className="align-items-center">
+                                <Col xs={{ span: 12 }} lg={{ span: 6 }} className="align-items-center ps-lg-0">
                                     <Card.Body>
                                         <Row className="d-none d-sm-flex">
                                             <Col sm={4}>
@@ -116,14 +116,20 @@ export default function Header() {
                                             </Col>
                                         </Row>
 
-                                        <Row className="mt-2 mt-md-3 mb-lg-3">
-                                            <Col className="d-flex justify-content-center">
-                                                <Button href="/assets/pdf/Eloi-Riera-Lanau.pdf" download="Eloi_Riera_Lanau.pdf" variant="outline-dark">
-                                                    <FontAwesomeIcon icon={solid('file-download')} className="me-2" />
-                                                    {t('header.download_vc')}
-                                                </Button>
-                                            </Col>
-                                        </Row>
+                                        <div className="d-grid d-md-flex d-lg-grid d-xxl-flex gap-3">
+                                            <Button href="/assets/pdf/Eloi-Riera-Lanau.pdf" download="Eloi_Riera_Lanau.pdf" variant="outline-dark" className="flex-fill">
+                                                <FontAwesomeIcon icon={solid('download')} className="me-2" />
+                                                {t('header.download_vc')}
+                                            </Button>
+                                            <Button href="https://cert.efset.org/Uw2WvC" variant="outline-dark" target="blank" className="flex-fill">
+                                                <FontAwesomeIcon icon={solid('up-right-from-square')} className="me-2" />
+                                                English Certificate
+                                            </Button>
+                                            <Button href="https://my.assessfirst.com/public/profile/fj4nviuy-eloi-riera-lanau" target="blank" variant="outline-dark" className="flex-fill">
+                                                <FontAwesomeIcon icon={solid('up-right-from-square')} className="me-2" />
+                                                Soft Skills
+                                            </Button>
+                                        </div>
                                     </Card.Body>
                                 </Col>
                             </Row>
